@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal Video Streaming</title>
+</head>
+<body>
+    <h2>Internal Video Streaming Demo</h2>
+
+    <input type="email" id="email" placeholder="Enter your email" />
+    <input type="text" id="videoKey" placeholder="Video S3 Key e.g. video.mp4" />
+    <button onclick="loadVideo()">Load Video</button>
+
+    <br><br>
+    <video id="videoPlayer" width="640" height="360" controls></video>
+
+    <script>
+        async function loadVideo() {
+            const email = document.getElementById("email").value;
+            const videoKey = document.getElementById("videoKey").value;
+
+            if (!email || !videoKey) {
+                alert("Please enter both email and video key!");
+                return;
+            }
+
+            try {
+                const response = await fetch("/get_video_url", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({ email, video_key: videoKey })
+                });
+
+                const data = await response.json();
+                if (data.url) {
+                    const video = document.getElementById("videoPlayer");
+                    video.src = data.url;
+                    video.load();
+                    video.play();
+                } else {
+                    alert("Error: " + (data.error || "Unable to get video URL"));
+                }
+            } catch (err) {
+                console.error(err);
+                alert("Failed to load video.");
+            }
+        }
+    </script>
+</body>
+</html>

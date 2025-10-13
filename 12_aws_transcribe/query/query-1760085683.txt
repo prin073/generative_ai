@@ -1,0 +1,187 @@
+
+    INSERT INTO livebetting.questions
+        (correct_answer, wrong_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('84', '82', 0.0, 11.84, 'How many international goals has Ronaldo scored?', 6, 0);
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 0.0, 11.84, 'Will Ronaldo score in this match?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 107.129, 11.46, 'Is Fernando Hierro Spain''s permanent head coach?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 149.669, 29.32, 'Will this match have 3 or more total goals?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 204.399, 4.52, 'Will Ronaldo attempt a skill move in the next 10 seconds?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1029.119, 5.69, 'Will Costa create a goal-scoring opportunity in the next 5 minutes?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1080.0, 4.61, 'Will Spain score in the first half?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Sergio Busquets', 1157.369, 32.81, 'Who received the first yellow card of the match?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1192.449, 12.04, 'Will Ronaldo take this free kick?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1243.89, 6.52, 'Was the free kick taken with significant power?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1295.739, 10.31, 'Will Diego Costa score in the next 5 minutes?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1338.52, 12.12, 'Will this be the last major tournament for both Pepe and José Fonte?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1393.88, 5.6, 'Will Spain score from their next corner kick?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1424.68, 20.51, 'Will Portugal score in the next 5 minutes?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1478.18, 14.58, 'Will Portugal win this match?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1523.949, 59.12, 'Will the goal by Diego Costa stand after VAR review?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('1-1', 1603.43, 3.74, 'What is the current scoreline?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1664.14, 13.37, 'Will this goal by Diego Costa stand?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Spain', 1713.869, 18.92, 'Which team has the momentum right now?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 1768.06, 25.06, 'Will Bruno Fernandes receive a yellow card?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1807.4, 2.71, 'Will Spain score from this free kick?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1845.069, 4.21, 'Is Ramos in a position to score from this play?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1924.17, 4.18, 'Did the ball fully cross the goal line?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 1966.339, 11.24, 'Did Diego Costa play regular football in the 6 months before the World Cup?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('Yes', 2010.459, 8.51, 'Will Spain maintain possession for the next 30 seconds?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 2081.83, 6.14, 'Will Ronaldo score in the next 5 minutes?', 6, 0);
+    
+
+
+    INSERT INTO livebetting.questions
+        (correct_answer, display_at_second, display_duration, question_text, match_id, is_resolved)
+    VALUES
+        ('No', 2155.56, 10.1, 'Will Spain score from this possession sequence?', 6, 0);
+    
+
