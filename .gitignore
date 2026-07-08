@@ -4,3 +4,7 @@ questions/
 questions-1/
 transcripts/
 .idea/
+
+# Ignore Python compiled files
+*.pyc
+**pycache**/

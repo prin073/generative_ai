@@ -1,6 +1,3 @@
-
-
-
 ## Usecase: 
 Company may want to utilize LLM model and not share company data to 3rd party. 
 So they can deploy locally and use it. There are some free LLM models available.
@@ -75,9 +72,14 @@ python3 -m venv venv
 source venv/bin/activate
 pip install fastapi uvicorn requests 
 ```
-2.Install ollama in your local system: https://github.com/ollama/ollama pip install ollama
-3.Create a file main.py and add the code to connect to LLM
-4.Launch http://0.0.0.0:8000 Or http://0.0.0.0:8000/docse (swagger page) and test the api
+2. Install ollama in your local system: https://github.com/ollama/ollama 
+```md
+pip install ollama
+```
+3. Create a file main.py and add the code to connect to LLM
+4. Launch http://0.0.0.0:8000 Or http://0.0.0.0:8000/docs (swagger page) and test the api
+5. Use the swagger page to test the api. Click on POST /generate and click on Try it out.
+6. In the request body, add the model name and the prompt and click on execute.
 
 
 

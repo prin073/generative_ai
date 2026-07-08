@@ -1,5 +1,5 @@
-ollama, hugging face transformer what are the uses
-Both Ollama and Hugging Face Transformers are in the same broad space (LLMs, NLP, AI), but they’re used in slightly different ways. Let me break it down:
+Q.ollama, hugging face transformer what are the uses
+A:Both Ollama and Hugging Face Transformers are in the same broad space (LLMs, NLP, AI), but they’re used in slightly different ways. Let me break it down:
 
 🟢 Ollama(LLM Runner)
 

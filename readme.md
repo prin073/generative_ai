@@ -1,6 +1,32 @@
 
 Agentic AI
 ========
+## Normal AI: responds to prompts
+1️⃣ Simple Example
+Normal AI (like a basic chatbot)
+
+You ask:
+“Why did my Jenkins test fail?”
+
+AI replies:
+“Because the API returned 500.”
+
+It only answers the question.
+## Agentic AI: understands a goal and works step-by-step to complete it.
+You ask:
+“Fix my failing Jenkins test.”
+
+Agentic AI might:
+
+1. Check Jenkins logs via API
+2. Detect failed test cases
+3. Analyze error patterns
+4. Compare with previous builds
+5. Suggest the root cause
+6. Open a Jira ticket
+7. Post summary in Slack
+
+So it acts autonomously to solve the problem.
 
 AI with Python(LLM -> Large Language Model) ==> Agentic AI Journey ==> Application Development 
 ===========================================================
@@ -18,7 +44,7 @@ Normal GPT flow
 INPUT TOKEN —> LLM —> Predict Next Token 
 
 
-We will cover little bit of ML and more on application development. Application Developers don’t need to know in depth about  ML.
+We will cover little bit of ML and more on application development. Application Developers don’t need to know in depth about ML.
 ML engineers also don’t know about application developments.
 
 ![My Screenshot](images/img.png)

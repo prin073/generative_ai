@@ -18,7 +18,6 @@ cffi==2.0.0
 charset-normalizer==3.4.3
 click==8.3.0
 colorama==0.4.6
-croniter==6.2.2
 cryptography==46.0.5
 dataclasses-json==0.6.7
 distro==1.9.0
@@ -90,12 +89,10 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 PyYAML==6.0.3
 qdrant-client==1.17.1
-redis==7.4.0
 regex==2025.9.18
 requests==2.32.5
 requests-toolbelt==1.0.0
 rich==14.3.3
-rq==2.7.0
 rsa==4.9.1
 s3transfer==0.14.0
 safetensors==0.7.0
