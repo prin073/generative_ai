@@ -8,4 +8,4 @@ transcripts/
 # Ignore Python compiled files
 *.pyc
 **pycache**/
-.env
+**/.env
